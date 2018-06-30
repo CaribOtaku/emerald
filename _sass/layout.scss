@@ -22,7 +22,7 @@
 }
 
 #nav {
-  @include nav-position(right);
+  @include nav-position(left);
 }
 
 #nav-left {
@@ -118,7 +118,7 @@
 }
 
 #header {
-	text-align: center;
+	text-align: left;
   padding: 24px 0;
   position: relative;
   a {

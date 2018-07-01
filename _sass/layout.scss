@@ -39,6 +39,31 @@ background-color: $main-color;
   }
 }
 
+/* Testing - Need R*/
+.logo {
+	position: fixed;
+	float: left;
+	margin: 16px 36px;;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	transition: 1s;
+}
+/* Testing Ends - Need R*/
+
 /* Posts */
 
 #posts {

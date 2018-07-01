@@ -35,8 +35,35 @@ background-color: $main-color;
   }
   h1 {
   	font-family: 'Signika', sans-serif; //Emerald logo font
-    font-size: 20px;
+    font-size: 30px;
   }
+
+/* Testing - Need R*/
+nav {
+      position: relative;
+      /*width: 100%;*/
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	transition: 1s;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;	
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 20px;
+}
+	/* Testing - Need R*/
 }
 	
 /* Testing - Need R*/

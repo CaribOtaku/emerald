@@ -20,6 +20,7 @@
 
 #header {
    padding: 24px 0; 
+	/*    text-align: left;*/
 	position: relative;
 background-color: $main-color;
   a {
@@ -37,6 +38,7 @@ background-color: $main-color;
     font-size: 30px;
     text-align: left;
   }
+}
 
 /* Testing - Need R*/
 nav {
@@ -64,42 +66,7 @@ nav ul li a {
 	font-size: 20px;
 }
 	/* Testing - Need R*/
-}
 	
-/* Testing - Need R*/
-/*.logo {
-	position: fixed;
-	float: left;
-	margin: 16px 36px;;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-nav {
-      position: fixed;
-      width: 100%;
-}
-
-nav ul {
-	list-style: none;
-	overflow: hidden;
-	color: #fff;
-	padding: 0;
-	text-align: center;
-	margin: 0;
-	transition: 1s;
-}
-
-nav ul li {
-	display: inline-block;
-	padding: 20px;	
-}
-
-nav ul li a {
-	text-decoration: none;
-	font-size: 20px;
-}*/
-/* Testing Ends - Need R*/
 
 /* Posts */
 

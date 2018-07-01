@@ -74,11 +74,9 @@ nav ul li a {
 
 	
 
-#postinfo {
-p, time {
-    display: inline-block;
+.postinfo p,.postinfo time {
+    display: inline;
     vertical-align: top;
-}
 }
 
 /* Posts */

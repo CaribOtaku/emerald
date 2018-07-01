@@ -7,12 +7,12 @@ layout: default
 	{% for post in paginator.posts %}
 
 	  <li class="post">
+		<img class="desktopthumb" src="{{ post.image }}" alt="">
 	  	<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		 <div class ="postinfo">
 		  <p>{{ post.poster }}</p>
 	  	  <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 		  </div>
-		  <img class="desktopthumb" src="{{ post.image }}" alt="">
 	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </li>
 

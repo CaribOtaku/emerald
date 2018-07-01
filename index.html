@@ -12,7 +12,7 @@ layout: default
 		  <p>{{ post.poster }}</p>
 	  	  <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 		  </div>
-		  <a href="{{ site.baseurl }}{{ post.url }}"><img class="desktopthumb" src="{{ post.image }}" alt=""><a>
+		  <a href="{{ site.baseurl }}{{ post.url }}"><img class="desktopthumb" src="{{ post.image }}" alt=""></a>
 	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </li>
 

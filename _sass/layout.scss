@@ -102,6 +102,16 @@ nav ul li a {
 color: #b01320;
 }
 
+.desktopthumb {
+height: 100px;
+vertical-align: middle;
+}
+
+.Words {
+display: inline-block;
+}
+
+
 .post+.post:before {
     display: block;
     content: '';

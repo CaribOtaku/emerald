@@ -7,14 +7,29 @@ layout: default
 	{% for post in paginator.posts %}
 
 	  <li class="post">
-	  	<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		  <div class ="box">
+					  <div class ="imgBx">
+					  <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" alt=""></a>
+				          </div>
+			  <div class="content">
+				  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+				   <div class ="postinfo">
+	          <p>{{ post.poster }}</p>
+	  	  <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
+		  </div>
+		<p>{{ post.content | strip_html | truncatewords:50 }} <a href="{{ site.baseurl }}{{ post.url }}" class="MoreInfo">&nbsp;...More Info &nbsp;</a></p>
+			  </div>
+			  </div>
+		  
+	  	<!-- <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		 <div class ="postinfo">
 		  <p>{{ post.poster }}</p>
 	  	  <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 		  </div>
 		  <a href="{{ site.baseurl }}{{ post.url }}"><img class="desktopthumb" src="{{ post.image }}" alt=""></a>
 	  	<p class="Words">{{ post.content | strip_html | truncatewords:50 }} <a href="{{ site.baseurl }}{{ post.url }}" class="MoreInfo">&nbsp;...More Info &nbsp;</a></p>
-	  </li>
+	 -->
+</li>
 
     {% endfor %}
 

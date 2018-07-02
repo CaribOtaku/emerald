@@ -71,7 +71,11 @@ nav ul li a {
 }
 
 /* Testing - Need R*/
-
+.box .imgBx img{
+float: left;
+margin-bottom: 10px;
+margin-right: 10px;	
+}
 
 /* Inline Poster And Time - Need R*/
 .postinfo p,.postinfo time {

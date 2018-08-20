@@ -25,6 +25,29 @@ header {
 	background-color: $main-color;
 }
 
+.logo {
+	position: fixed;
+	float: left;
+	margin: 16px; 36px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	transition: 1s;
+}
+	
 /*#header {
   /* padding: 24px 0; */
 	/* text-align: left;*/

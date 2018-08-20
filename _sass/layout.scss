@@ -18,11 +18,18 @@
 	padding: 0 1.5rem;
 }
 
-#header {
+
+header {
+	width: 100%;
+	height: 100vh;
+	background-color: $main-color;
+}
+
+/*#header {
   /* padding: 24px 0; */
 	/* text-align: left;*/
 	/*position: relative;*/
-background-color: $main-color;
+/*background-color: $main-color;
   a {
   	text-decoration: none;
 	color: $background-color;
@@ -37,14 +44,14 @@ background-color: $main-color;
   	font-family: 'Signika', sans-serif; //Emerald logo font
     font-size: 24px;
     /*test*/	  
-    float: left;
+    /*float: left;
     position: relative;
     margin: 16px 36px;	
 	  /* test */
   }
-	/* Testing - Need R*/
+	/* Testing - Need R*/ 
 
-nav {
+/*nav {
      position: relative;
      width: 100%;
 }
@@ -68,7 +75,7 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 20px;
 }
-}
+} */
 
 /* Testing - Need R*/
 .box .imgBx img{

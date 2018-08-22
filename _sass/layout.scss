@@ -27,7 +27,6 @@ header {
 	position: fixed;
 	float: left;
 	margin: 12px 36px;
-	background-color: #999999;
 }
 .logo a {
 	color: #fff;
@@ -61,6 +60,11 @@ nav ul li a {
 	padding: 12px 5px;
 	color: #fff;
 	font-size: 20px;
+}
+
+nav ul li:nth-child(n+3)
+{
+	background-color:#ff0000;
 }
 
 /*#header {

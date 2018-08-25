@@ -82,6 +82,38 @@ nav ul li:nth-child(n+7)
 	background-color:#526396;
 }
 
+.menu-icon {
+	width: 100%;
+	text-align: right;
+	box-sizing: border-box;
+	curson: pointer;
+	color: #fff;
+	display: none;
+}
+
+@media(max-width: 580px){
+	.logo{
+		position: fixed;
+		top: 0;
+		margin-top: 12px;
+	}
+	
+	nav ul{
+		max-height: 0px;
+	}
+	
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px 0;
+		text-align: center;
+	}
+	
+	.menu-icon {
+	display: block;
+	}
+}
+
 /*#header {
   /* padding: 24px 0; */
 	/* text-align: left;*/

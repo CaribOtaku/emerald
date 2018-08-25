@@ -102,6 +102,10 @@ nav ul li:nth-child(n+7)
 		max-height: 0px;
 	}
 	
+	.showing {
+		max-height: 20em;
+	}
+	
 	nav ul li{
 		box-sizing: border-box;
 		width: 100%;

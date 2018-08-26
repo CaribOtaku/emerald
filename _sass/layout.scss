@@ -298,3 +298,40 @@ footer {
   text-align: center;
   padding: 0.6667em 0;
 }
+
+.footer-soc ul {
+	list-style: none;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	transition: 1s;
+}
+
+.footer-soc ul li {
+	display: inline-block;
+	padding: 12.5px;
+	margin-right: -10px;
+}
+
+ .footer-links a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+.footer-links a:link {
+    color: white;
+}
+
+.footer-links a:visited {
+    color: white;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-links a:active {
+    color: white;
+}
